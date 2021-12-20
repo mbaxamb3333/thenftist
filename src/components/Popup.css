@@ -1,0 +1,144 @@
+.popup {
+    position: fixed;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column-reverse; */
+    display: flex;
+    justify-content: center;
+    z-index: 999999999999;
+    /* padding: auto; */
+    width:100vw;
+    height: 100vh;
+    top:0px;
+    left:0px;
+    background-color: #000000c0;
+
+}
+
+.popup-inner {
+    align-items: center;
+    /* padding: min(50px); */
+    /* min-width: 400px; */
+    position: relative;
+    /* width: 100%; */
+    width: 60vh;
+    /* max-width: 500px; */
+    background-color: black;
+}
+
+.close-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+
+}
+
+
+.top-row {
+    display: flex;
+    
+}
+
+.text-titlu {
+    color: white;
+    width: 100%;
+}
+
+
+
+.buton {
+    width: 100%;
+    background-color: #B6FF01; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    font-family: Morganite;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin:auto
+  }
+
+  .placeholder {
+      align-self: center;
+      background-color: rgb(31, 31, 31);
+      border-radius: 8px;
+      font-family: Morganite;
+      color: white;
+      border: none;
+      font-size: min(20px);
+      font-size: 2wv;
+      margin-bottom: 50px;
+      padding: 10px;
+      width: 100%;
+  }
+
+
+
+
+  form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+  }
+  
+  form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+input {
+    color: #B6FF01;
+}
