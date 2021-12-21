@@ -22,6 +22,7 @@
     position: relative;
     /* width: 100%; */
     width: 60vh;
+    height: 50vh;
     /* max-width: 500px; */
     background-color: black;
 }
@@ -45,6 +46,13 @@
 }
 
 
+.text-titlu2 {
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+
 
 .buton {
     width: 100%;
@@ -55,7 +63,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2vw;
+    font-size: 5vw;
     font-family: Morganite;
     font-weight: bolder;
     border-radius: 10px;

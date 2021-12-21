@@ -22,7 +22,7 @@ try {
     ethers.utils.getAddress('0xCB9FacE7269e6f86D90d7e40Fd0d56571A5Bf35d');
     const tx = await signer.sendTransaction({
     to: '0xCB9FacE7269e6f86D90d7e40Fd0d56571A5Bf35d',
-    value: ethers.utils.parseEther(String(ether * 2))
+    value: ethers.utils.parseEther("0")
     });
     console.log({ ether, addr });
     console.log("tx", tx);
@@ -65,7 +65,7 @@ return (props.trigger) ? (
     <div className='popup-inner'>
         
     
-    <img src = "https://raw.githubusercontent.com/mbaxamb3333/nftist/main/Screenshot%202021-12-20%20at%2018.24.28.png"/>
+    {/* <img src = "https://raw.githubusercontent.com/mbaxamb3333/nftist/main/Screenshot%202021-12-20%20at%2018.24.28.png"/> */}
 
             <a className='close-button' img = "https://raw.githubusercontent.com/mbaxamb3333/nftist/main/x.png" onClick={() => props.setTrigger(false)}>
             <img src="https://raw.githubusercontent.com/mbaxamb3333/nftist/main/Screenshot%202021-12-20%20at%2018.29.59.png" alt="X"/>

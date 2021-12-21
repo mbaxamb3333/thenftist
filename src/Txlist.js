@@ -8,6 +8,8 @@ export default function TxList({ txs }) {
             <div className="flex-1">
               <label className="text-titlu">{item.hash}</label>
             </div>
+            <h1 className="text-titlu">Congrats on your new acquisition!</h1>
+
           </div>
         ))}
       </>

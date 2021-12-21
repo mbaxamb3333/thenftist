@@ -47,7 +47,6 @@ return (
     {/* <Header/> */}
     <header>
 
-<div class="topcolor"></div>
 
         <div class="container">
 
@@ -102,7 +101,7 @@ return (
 
       <div class="abner_left" class="wow fadeInUp" data-wow-duration="2s">
 
-          <h1>WELCOME IN OUR EXCLUSIVE<br/>
+          <h1>WELCOME IN OUR EXCLUSIVE
               COMMUNITY. YOU ARE THE NFTiST. </h1>
 
           <h5>Support and Grow Together. </h5>
@@ -129,11 +128,8 @@ return (
 
 
 
-    <Popup trigger={buttonPopup} setTrigger = {setButtonPopup}>
-    <div className='central'>
-    <h3> My Popup</h3>
-    </div>
-    </Popup>
+    <Popup trigger={buttonPopup} setTrigger = {setButtonPopup}/>
+
     <Manifesto/>
     <Footer/>
   </Fragment>
